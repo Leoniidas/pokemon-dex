@@ -13,10 +13,10 @@ botaoAlterarTema.addEventListener("click", () => {
 
     if (mododarkEstaAtivo) {
 
-        imagemBotaoTrocadeTema.setAttribute("src", "/src/imagens/sun.png");
+        imagemBotaoTrocadeTema.setAttribute("src", "./src/imagens/sun.png");
     } else {
 
-        imagemBotaoTrocadeTema.setAttribute("src", "/src/imagens/moon.png");
+        imagemBotaoTrocadeTema.setAttribute("src", "./src/imagens/moon.png");
     }
 });
 
